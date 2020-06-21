@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: brown;
+    font-size: large;
+    font-family: 'Sriracha', cursive;
+    font-style: italic;
+    text-align: center;
+    margin-top: 3vh;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+p{
+    color: green;
+}
+#tries{
+    color: indigo;
+}
+h1{
+    font-size: 144%;
+    color: gold;
+}
+div p{
+    font-weight: bold;
+    font-size: xx-large;
+    color: ivory;
+}
+button{
+    background-color: deeppink;
+    color: dodgerblue;
+    font-weight: bolder;
+    opacity: .84;
+    padding: 6px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 35%;
+}
+#start{
+    background-color: chocolate;
+    color: darkgreen;
+    opacity: .8;
+    padding: 3%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkorange;
+    opacity: 1;
+    border-style: groove;
+    border-color: lightseagreen;
+    border-width: 2px;
+}
+#start:hover{
+    background-color: maroon;
+    opacity: 1;
+    border-color: mediumvioletred;
+    border-width: medium;
+    color: moccasin;
+}
